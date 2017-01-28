@@ -1,49 +1,19 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    text-align: center;
+    font-weight: 400;
     color: #221917;
 
-    background-color: #F8FAEE;
-    background-image: url('http://i.imgur.com/xjeNeCc.png');
-    background-repeat: repeat;
+    background-color: #f9fbff;
 }
 
-a {
-    text-decoration: none;
-    color: #8DA6B4;
+img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.ic {
-    color: #8DA6B4;
-
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
-
-.highlight {
-    color: #202A41;
-    font-weight: 400;
-}
-
-.highlight.red {
-    color: #FF384C;
-}
-
-.highlight.green {
-    color: #6ADB00;
-}
-
-.circle {
-    width: 100%;
-    max-width: 400px;
-
-    border-radius: 50%;
-}
-
-.projects li {
-    display: inline;
-    list-style-type: none;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+@media screen and (max-width: 599px)
+.me {
+    text-align: center !important;
+    background-color: blue;
 }
