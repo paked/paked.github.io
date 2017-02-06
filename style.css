@@ -17,3 +17,14 @@ img {
     text-align: center !important;
     background-color: blue;
 }
+
+.quick-links {
+    text-align: center;
+    list-style-type: none;
+}
+
+.quick-links li {
+    display: inline;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
