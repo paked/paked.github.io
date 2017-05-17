@@ -39,3 +39,8 @@ body {
 .tagline {
     font-size: 14px;
 }
+
+.date {
+    font-size: 14px;
+    padding-bottom: 4px;
+}
