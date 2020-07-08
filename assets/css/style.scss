@@ -17,6 +17,11 @@ nav {
 
     padding-top: 14px;
 
+    a, a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
     h1 {
         font-size: 2em;
         margin: 0;
