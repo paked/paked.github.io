@@ -9,16 +9,23 @@
     margin-left: 1em;
     margin-right: 1em;
 
-        font-family: 'Open Sans';
+    font-family: 'Open Sans';
 }
 
 nav {
     font-family: 'Luckiest Guy', cursive;
 
-    h1 {
-        display: inline-block;
+    padding-top: 14px;
 
-        vertical-align: middle;
+    h1 {
+        font-size: 2em;
+        margin: 0;
+        display: inline-block;
+    }
+
+    span {
+        font-size: 1.7em;
+        margin-right: 3em;
     }
 
     li {
@@ -27,23 +34,28 @@ nav {
         font-size: 2em;
         display: inline;
 
-        margin-right: 3em;
-
-        vertical-align: middle;
+        margin-right: 2em;
     }
 
     li:last-child {
         margin-right: 0;
     }
 
-    ul {
-        float: right;
-        padding: 0;
+    li:first-child {
+        margin-right: auto;
     }
 
+    ul {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
     border-bottom: 3px #00B2FF solid;
     margin-bottom: 1.5em;
 }
+
 
 main {
     img {
