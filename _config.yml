@@ -52,3 +52,4 @@ github_username: paked
 collections:
   posts:
     permalink: /blog/:year/:title
+    layout: blog
