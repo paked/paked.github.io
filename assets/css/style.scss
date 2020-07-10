@@ -12,25 +12,42 @@
     font-family: 'Open Sans';
 }
 
+$highlight: #00B2FF;
+
 nav {
     font-family: 'Luckiest Guy', cursive;
 
     padding-top: 14px;
 
-    a, a:hover {
-        text-decoration: none;
+    $anim-time: 0.3s;
+
+    a {
         color: black;
+        text-decoration: none;
+
+    }
+
+    h1, span {
+        background-size: 200% 100%;
+        background-image: linear-gradient(to left, $highlight 50%, black 50%);
+        -webkit-transition: background-position $anim-time;
+        -moz-transition: background-position $anim-time;
+        transition: background-position $anim-time;
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;   
+    }
+
+
+    h1:hover, span:hover {
+        background-position: -100% 0%;
     }
 
     h1 {
         font-size: 2em;
         margin: 0;
-        display: inline-block;
-    }
 
-    span {
-        font-size: 1.7em;
-        margin-right: 3em;
+        display: inline-block;
     }
 
     li {
