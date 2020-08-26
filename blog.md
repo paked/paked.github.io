@@ -3,7 +3,7 @@ permalink: /blog/
 layout: default
 ---
 
-I like to write sometimes. Here are those posts.
+There might be posts here some day.
 
 {% for post in site.posts %}
 ## [{{ post.title }}]({{ post.url }})
