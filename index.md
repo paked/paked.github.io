@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![harrison](harrison.JPG){: .profile }
+![harrison](harrison-min.JPG){: .profile }
 
 Welcome to my website.
 
