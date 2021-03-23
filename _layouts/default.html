@@ -18,7 +18,15 @@
         <meta name="author" content="{{ site.author }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href='{{ "/assets/css/style.css"| relative_url }}'>
+        <link rel="preconnect"
+              href="https://fonts.gstatic.com"
+              crossorigin />
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap"/>
+
+        <link rel="stylesheet" type="text/css" href="{% link assets/css/normalize.css %}"/>
+
+        <link rel="stylesheet" type="text/css" href='{% link assets/css/style.scss %}'>
     </head>
     <body>
         <div class="container">
