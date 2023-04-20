@@ -6,12 +6,9 @@ layout: default
 
 Welcome to my website.
 
-This is a list of stuff I currently do:
+When I'm not being a software engineer I:
 
-- procrastinate uni
-- [think about how we can teach people to code better](https://cs.anu.edu.au/code-creativity-culture/)
-- be an Educational Technologist at the ANU School of Computing
-- run around in the dark with a map and compass (when i'm not injured)
+- run around in the dark with a map and compass
 - ride a bike with only one gear
 
 Things I've done in the past:
