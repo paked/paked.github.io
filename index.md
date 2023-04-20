@@ -9,6 +9,7 @@ Welcome to my website.
 When I'm not being a software engineer I:
 
 - run around in the dark with a map and compass
+- cook tasty food
 - ride a bike with only one gear
 
 Things I've done in the past:
