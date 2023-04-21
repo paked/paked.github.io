@@ -8,8 +8,10 @@ Welcome to my website.
 
 When I'm not being a software engineer I:
 
-- run around in the dark with a map and compass
 - cook tasty food
-- ride a bike with only one gear
+- ride my bike
+- run around with a map and compass
 
 If you're looking for my past coding related endeavours, a decent selection of them are on my [GitHub](https://github.com/paked).
+
+My email is "firstname DOT lastname at the big G email provider".
